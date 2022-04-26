@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titu-logo{
+    background-color: rgb(54, 54, 207);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    font-size: 30px;
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 100%;
+}
+.titu-logo h1{
+    margin: 5px;
+    font-weight: bolder;
+    border: 5px solid rgb(27, 165, 57);
+    background: rgb(14, 8, 8);
+}
+.titu-logo img{
+    width: 200px;
+    height: 60%;
+    border-radius: 10px;
+}
+.port{
+    width: 100%;
+    height: 600px;
+    animation: animado 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+@keyframes animado{
+    0%,15%{
+        background-image: url("../img/porta0.jpg");
+    }
+    20%,40%{
+        background-image: url("../img/porta1.jpg");
+    }
+    45%,55%{
+        background-image: url("../img/porta2.jpg");
+    }
+    60%,85%{
+        background-image: url("../img/porta4.jpg");
+    }
+    90%,100%{
+        background-image: url("../img/porta5.jpg");
+    }
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 6); */
+}
+.port, .fuente{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.descrip{
+    background-color: chocolate;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+.descrip h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.descrip p{
+    font-size: 26px;
+}
+.contenido{
+    background-color: rgb(63, 160, 160);
+    
+}
+.contenido h2{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    background-color:black;
+    color:white;
+}
+.text-info{
+    padding: 10px;
+    text-align: justify;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.text-info p{
+    padding-top: 40px;
+    font-size: 28px;
+    text-align: justify;
+}
+.text-info img{
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+}
+/*Galery*/
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 15px;
+    gap: 15px;
+    width: 100%;
+    background-color: darkslategrey;
+    color: antiquewhite;
+}
+.galeria div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    text-align: justify;
+}
+.galeria div p{
+    font-size: 25px;
+    font-weight: normal;
+}
+.galeria div img{
+    width: 100%;
+    height: 300px;
+}
