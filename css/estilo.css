@@ -139,7 +139,15 @@
     height: 300px;
 }
 @media screen and (max-width:500px){
-
+/*Fuente de Info*/
+.port, .fuente{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
     /*Portage*/
 .titu-logo{
     background-color: rgb(54, 54, 207);
