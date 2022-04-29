@@ -210,6 +210,7 @@
     width: 100%;
     height: 300px;
 }
+<<<<<<< HEAD
 /*Footer*/
 .piecont{
     background-color: rgb(3, 97, 3);
@@ -247,6 +248,9 @@
     border: 5px double rgb(53, 58, 45);
 }
 @media screen and (max-width:580px){
+=======
+@media screen and (max-width:500px){
+>>>>>>> 289ebbe25a06b43c4ce1c8761d6888861d7a092f
 /*Fuente de Info*/
 .port, .fuente{
     width: 100%;
@@ -298,6 +302,7 @@
         width: 100%;
         height: 200px;
     }
+<<<<<<< HEAD
     /*Present*/
     .paisaje{
         background-color: bisque;
@@ -334,11 +339,17 @@
         text-transform: uppercase;
         font-size: 10px;
     }
+=======
+>>>>>>> 289ebbe25a06b43c4ce1c8761d6888861d7a092f
     /*Galery*/
 .galeria{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+<<<<<<< HEAD
     padding: 10px;
+=======
+    padding: 15px;
+>>>>>>> 289ebbe25a06b43c4ce1c8761d6888861d7a092f
     gap: 15px;
     width: 100%;
     background-color: darkslategrey;
@@ -350,13 +361,18 @@
     text-align: justify;
 }
 .galeria div p{
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 25px;
+>>>>>>> 289ebbe25a06b43c4ce1c8761d6888861d7a092f
     font-weight: normal;
 }
 .galeria div img{
     width: 100%;
     height: 300px;
 }
+<<<<<<< HEAD
 .piecont{
     background-color: rgb(3, 97, 3);
     padding: 30px;
@@ -379,3 +395,6 @@
 }
 
 
+=======
+}
+>>>>>>> 289ebbe25a06b43c4ce1c8761d6888861d7a092f
